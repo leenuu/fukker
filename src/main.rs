@@ -65,8 +65,10 @@ fn main() -> Result<(), Box<dyn Error>> {
 
         if changed {
             println!("파일 변경이 감지되었습니다. 프로세스를 재시작합니다.");
-            child.kill()?;
-            child.wait()?;
+            process::Command::new("kill")
+            .arg("-9")
+            .arg(child.id().to_string())
+            .spawn()?;
 
             let mut pids: Vec<u32> = Vec::new();
             for port in &server_ports {
@@ -75,9 +77,12 @@ fn main() -> Result<(), Box<dyn Error>> {
                     pids.push(pid);
                 }
             }
+
             kill_pids(&pids)?;
+            
             child = run_process(&cmd)?;
             changed = false;
+            std::thread::sleep(std::time::Duration::from_millis(5000)); 
         }
         old_hash_files_map = new_hash_files_map;
         watch_hash_files_map.clear();
