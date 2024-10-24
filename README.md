@@ -11,7 +11,6 @@ Fukker는 Nx 프로젝트에서 파일 변경 시 자동으로 리로드되지 �
 {
     "watch_dir" : ["/workspace/nx-nestjs-template/apps", "/workspace/nx-nestjs-template/libs"],
     "watch_ext" : ["ts"],
-    "tmp_dir" : "/workspace/fukker/tmp",
     "working_dir" : "/workspace/nx-nestjs-template",
     "cmd" : "yarn dev",
     "server_port" : [3000],
@@ -22,7 +21,6 @@ Fukker는 Nx 프로젝트에서 파일 변경 시 자동으로 리로드되지 �
 
 - `watch_dir`: 감시할 디렉토리 경로 배열입니다.
 - `watch_ext`: 감시할 파일 확장자입니다 (예: `"ts"`).
-- `tmp_dir`: 임시 파일을 저장할 디렉토리 경로입니다.
 - `working_dir`: 작업 디렉토리입니다.
 - `cmd`: 파일 변경 시 실행할 명령어입니다.
 - `server_port`: 서버가 사용하는 포트 배열입니다.
@@ -53,7 +51,6 @@ Fukker is a tool developed to solve the issue of files not automatically reloadi
 {
     "watch_dir" : ["/workspace/nx-nestjs-template/apps", "/workspace/nx-nestjs-template/libs"],
     "watch_ext" : ["ts"],
-    "tmp_dir" : "/workspace/fukker/tmp",
     "working_dir" : "/workspace/nx-nestjs-template",
     "cmd" : "yarn dev",
     "server_port" : [3000],
@@ -64,7 +61,6 @@ Fukker is a tool developed to solve the issue of files not automatically reloadi
 
 - `watch_dir`: Array of directory paths to watch.
 - `watch_ext`: File extensions to monitor (e.g., `"ts"`).
-- `tmp_dir`: Directory path for storing temporary files.
 - `working_dir`: Working directory path.
 - `cmd`: Command to run when files are changed.
 - `server_port`: Array of server ports in use.
