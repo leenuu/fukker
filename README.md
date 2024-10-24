@@ -29,6 +29,14 @@ Fukker는 Nx 프로젝트에서 파일 변경 시 자동으로 리로드되지 �
 
 2. 설정을 완료한 후 프로그램을 실행하면, 파일이 변경될 때마다 자동으로 서버가 리로드됩니다.
 
+## OS
+- [ ] Windows
+- [ ] macOS
+- [x] Linux
+- [ ] BSD
+- [ ] iOS
+- [ ] Android
+
 ## 설치
 
 ```bash
@@ -68,6 +76,14 @@ Fukker is a tool developed to solve the issue of files not automatically reloadi
 - `watch_buffer_size`: Buffer size for watching files.
 
 2. After configuring, run the program to automatically reload the server whenever a file change is detected.
+
+## OS
+- [ ] Windows
+- [ ] macOS
+- [x] Linux
+- [ ] BSD
+- [ ] iOS
+- [ ] Android
 
 ## Installation
 
