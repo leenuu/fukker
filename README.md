@@ -36,7 +36,7 @@ Fukker는 Nx 프로젝트에서 파일 변경 시 자동으로 리로드되지 �
 ```bash
 git clone https://github.com/your-repo/fukker.git
 cd fukker
-yarn install
+cargo run
 ```
 
 ---
@@ -78,5 +78,5 @@ Fukker is a tool developed to solve the issue of files not automatically reloadi
 ```bash
 git clone https://github.com/your-repo/fukker.git
 cd fukker
-yarn install
+cargo run
 ```
