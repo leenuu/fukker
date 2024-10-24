@@ -33,9 +33,6 @@ Fukker는 Nx 프로젝트에서 파일 변경 시 자동으로 리로드되지 �
 - [ ] Windows
 - [ ] macOS
 - [x] Linux
-- [ ] BSD
-- [ ] iOS
-- [ ] Android
 
 ## 설치
 
@@ -81,9 +78,6 @@ Fukker is a tool developed to solve the issue of files not automatically reloadi
 - [ ] Windows
 - [ ] macOS
 - [x] Linux
-- [ ] BSD
-- [ ] iOS
-- [ ] Android
 
 ## Installation
 
